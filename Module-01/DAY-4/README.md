@@ -8,30 +8,44 @@ To create a Java program print area of rectangle by defining instance method and
 2.	Define a class named 'Area'
 3.	Declare a public method named 'calculateArea' with no parameters
 4.	Inside the 'calculateArea' method:
-a)	Declare a Double variable 'length' and assign it the value 10.0
-b)	Declare a Double variable 'width' and assign it the value 20.0
-c)	Calculate the area by multiplying 'length' and 'width' and store the result in a Double variable 'area'
-d)	Print the calculated area using the System.out.println statement
+    -	Declare a Double variable 'length' and assign it the value 10.0
+    -	Declare a Double variable 'width' and assign it the value 20.0
+    -	Calculate the area by multiplying 'length' and 'width' and store the result in a Double variable 'area'
+    -	Print the calculated area using the System.out.println statement
 5.	Define the 'main' method as static
 6.	Inside the 'main' method:
-a)	Create an instance of the 'Area' class called 'rectangle'
-b)	Call the 'calculateArea' method on the 'rectangle' object
+    -  Create an instance of the 'Area' class called 'rectangle'
+    -  Call the 'calculateArea' method on the 'rectangle' object
 
 
 
 
 ## PROGRAM:
  ```
-/*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : MOUNESH P 
+RegisterNumber  : 212222230084
 ```
 
 ## Sourcecode.java:
 
-
+```java
+import java.util.*;
+public class Area {
+        void calculateArea()
+    {
+        double side,cirarea;
+        Scanner sc=new Scanner(System.in);
+        side=sc.nextDouble();
+        cirarea=side*side;
+        System.out.println("Area of Square is "+cirarea);
+    }
+    public static void main(String[] args) {
+        Area obj = new Area();
+        obj.calculateArea();
+        }
+}
+```
 
 
 
@@ -39,6 +53,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![JAVA4](https://github.com/user-attachments/assets/6dff1828-50a7-476c-8219-ea5391da4c70)
 
 
 ## RESULT:
