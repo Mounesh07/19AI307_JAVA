@@ -49,8 +49,8 @@ public class Demo
 
 
 ## OUTPUT:
+![JAVA3](https://github.com/user-attachments/assets/0b286af3-bdb7-4188-bb01-ed86d54f1cd1)
 
-![image](./output.png)
 
 ## RESULT:
 Thus, the Java program to check given number is zero or not was created successfully.
