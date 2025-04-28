@@ -12,8 +12,8 @@ To write a Java program to get values of variables 'a' and 'b' and then check if
 6.	Read an integer 'a' from the user using the 'nextInt' method of 'sc'
 7.	Read another integer 'b' from the user using the 'nextInt' method of 'sc'
 8.	Check if 'a' is less than 50 or if 'a' is less than 'b'
-a)	If the condition is true, print "true" using the 'print' method of 'System.out'
-b)	If the condition is false, print "false" using the 'print' method of 'System.out'
+    -	If the condition is true, print "true" using the 'print' method of 'System.out' 
+    -	If the condition is false, print "false" using the 'print' method of 'System.out'
 9.	End
 
 
@@ -22,16 +22,25 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : MOUNESH P
+RegisterNumber  : 212222230084
 ```
 
 ## Sourcecode.java:
 
-
+```java
+import java.util.*;
+public class Demo
+{
+    public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    double a = sc.nextDouble();
+    double b = sc.nextDouble();
+    System.out.println(a < 50 || a < b);
+    }
+}
+```
 
 
 
@@ -39,7 +48,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![image](./output.png)
 
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
